@@ -21,7 +21,7 @@
       {
         "component": "text",
         "name": "title",
-        "label": "Title"
+        "label": "Title1"
       },
       {
         "component": "text",
@@ -31,7 +31,7 @@
       {
         "component": "select",
         "name": "titleType",
-        "label": "Title Type",
+        "label": "Title Type new",
         "options": [
           {
             "name": "h1",
