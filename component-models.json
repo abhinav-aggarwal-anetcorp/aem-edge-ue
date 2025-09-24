@@ -24,6 +24,11 @@
         "label": "Title"
       },
       {
+        "component": "text",
+        "name": "title2",
+        "label": "Title2"
+      },
+      {
         "component": "select",
         "name": "titleType",
         "label": "Title Type",
