@@ -17,20 +17,6 @@
           }
         },
         {
-          "title": "Gene Text",
-          "id": "gene-text",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "genentech-eds-project/components/eds/gene-text",
-                "template": {
-                  "model": "gene-text"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Title",
           "id": "title",
           "plugins": {
