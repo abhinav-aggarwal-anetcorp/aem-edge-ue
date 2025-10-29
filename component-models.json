@@ -67,12 +67,7 @@
       {
         "component": "text",
         "name": "title",
-        "label": "Title4"
-      },
-      {
-        "component": "text",
-        "name": "title3",
-        "label": "Title3"
+        "label": "Title"
       },
       {
         "component": "select",
