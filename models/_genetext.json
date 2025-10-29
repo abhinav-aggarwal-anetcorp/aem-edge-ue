@@ -24,7 +24,7 @@
         },
         {
           "component": "text",
-          "name": "titleSub",
+          "name": "subtitle",
           "label": "Sub Title"
         },
         {
