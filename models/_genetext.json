@@ -2,7 +2,7 @@
   "definitions": [
     {
       "title": "Gene Text",
-      "id": "gene-text",
+      "id": "gene-text11",
       "plugins": {
         "xwalk": {
           "page": {
