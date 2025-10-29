@@ -21,12 +21,12 @@
       {
         "component": "text",
         "name": "title",
-        "label": "Title1"
+        "label": "Title"
       },
       {
         "component": "text",
-        "name": "title2",
-        "label": "Title2"
+        "name": "subTitle",
+        "label": "Sub Title"
       },
       {
         "component": "select",
