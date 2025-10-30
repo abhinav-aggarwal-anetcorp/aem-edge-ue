@@ -61,21 +61,7 @@
       }
     ]
   },
-  {
-    "id": "checkbox-group",
-    "fields": [
-      {
-        "component": "checkbox-group",
-        "label": "Checkbox Group",
-        "name": "checkbox/a",
-        "valueType": "string[]",
-        "options": [
-          { "name": "Option 1", "value": "option1" },
-          { "name": "Option 2", "value": "option2" }
-        ]
-      }
-    ]
-  },
+
   {
     "id": "title",
     "fields": [
@@ -157,6 +143,21 @@
     ]
   },
   {
+    "id": "checkbox-group",
+    "fields": [
+      {
+        "component": "checkbox-group",
+        "label": "Checkbox Group",
+        "name": "checkbox",
+        "valueType": "string",
+        "options": [
+          { "name": "Option 1", "value": "option1" },
+          { "name": "Option 2", "value": "option2" }
+        ]
+      }
+    ]
+  },
+  {
     "id": "radio-group",
     "fields": [
       {
@@ -168,6 +169,28 @@
           { "name": "Option 1", "value": "option1" },
           { "name": "Option 2", "value": "option2" }
         ]
+      }
+    ]
+  },
+  {
+    "component": "container",
+    "name": "test",
+    "label": "Multi Text",
+    "multi": true,
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "value": "",
+        "label": "Sample Image",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "alt",
+        "value": "",
+        "label": "Alt Text",
+        "valueType": "string"
       }
     ]
   },
