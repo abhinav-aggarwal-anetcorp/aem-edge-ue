@@ -58,6 +58,12 @@
             "value": "h6"
           }
         ]
+      },
+      {
+        "component": "checkbox",
+        "name": "showSubtitle",
+        "label": "Show Subtitle",
+        "default": true
       }
     ]
   },
