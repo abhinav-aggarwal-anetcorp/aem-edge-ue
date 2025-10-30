@@ -68,7 +68,8 @@
         "component": "checkbox-group",
         "label": "Checkbox Group",
         "name": "checkbox",
-        "valueType": "string",
+        "valueType": "array",
+        "itemType": "string",
         "options": [
           { "name": "Option 1", "value": "option1" },
           { "name": "Option 2", "value": "option2" }
