@@ -229,6 +229,21 @@
     ]
   },
   {
+    "id": "multiselect",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "multiselect",
+        "label": "Multi Select",
+        "valueType": "string",
+        "options": [
+          { "name": "Option 1", "value": "option1" },
+          { "name": "Option 2", "value": "option2" }
+        ]
+      }
+    ]
+  },
+  {
     "id": "section",
     "fields": [
       {
