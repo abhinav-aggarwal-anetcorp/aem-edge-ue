@@ -10,11 +10,13 @@
     "components": [
       "text",
       "gene-text",
+      "radio-group",
       "image",
       "button",
       "title",
       "hero",
       "cards",
+      "multifields",
       "columns",
       "fragment"
     ]

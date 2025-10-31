@@ -17,6 +17,30 @@
           }
         },
         {
+          "title": "gene text",
+          "id": "gene-text",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "genentech-eds-project/components/eds/gene-text",
+                "template": {}
+              }
+            }
+          }
+        },
+        {
+          "title": "radio group",
+          "id": "radio-group",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "/apps/genentech-eds-project/components/eds/radiobutton",
+                "template": {}
+              }
+            }
+          }
+        },
+        {
           "title": "Title",
           "id": "title",
           "plugins": {
@@ -107,6 +131,21 @@
                 "template": {
                   "name": "Card",
                   "model": "card"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "multifield",
+          "id": "multifield",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "multifield",
+                  "model": "multifield"
                 }
               }
             }

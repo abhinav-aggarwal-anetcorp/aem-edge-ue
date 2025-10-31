@@ -1,0 +1,63 @@
+{
+  "definitions": [
+    {
+      "title": "multifields",
+      "id": "multifields",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "genentech-eds-project/components/eds/myblock",
+            "template": {
+              "name": "multifields",
+              "filter": "multifields"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "multifield",
+      "id": "multifield",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "genentech-eds-project/components/eds/myblock/item",
+            "template": {
+              "name": "multifield",
+              "model": "multifield"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "multifield",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "multifield",
+      "components": [
+        "multifield"
+      ]
+    }
+  ]
+}
