@@ -28,6 +28,12 @@
     ]
   },
   {
+    "id": "multifields",
+    "components": [
+      "multifield"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
