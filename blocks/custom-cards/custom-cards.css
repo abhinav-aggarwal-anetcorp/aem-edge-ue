@@ -1,4 +1,4 @@
-.customCards > ul {
+.custom-Cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,20 +7,20 @@
   grid-gap: 24px;
 }
 
-.customCards > ul > li {
+.custom-Cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
 }
 
-.customCards .customCards-card-body {
+.custom-Cards .customCards-card-body {
   margin: 16px;
 }
 
-.customCards .customCards-card-image {
+.custom-Cards .customCards-card-image {
   line-height: 0;
 }
 
-.customCards > ul > li img {
+.custom-Cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
