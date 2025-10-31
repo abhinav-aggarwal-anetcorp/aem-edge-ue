@@ -285,7 +285,7 @@
     ]
   },
   {
-    "id": "multifield",
+    "id": "singleitem",
     "fields": [
       {
         "component": "reference",
