@@ -9,14 +9,12 @@
     "id": "section",
     "components": [
       "text",
-      "gene-text",
-      "radio-group",
       "image",
       "button",
       "title",
       "hero",
       "cards",
-      "multifields",
+      "customcards",
       "columns",
       "fragment"
     ]
@@ -28,9 +26,9 @@
     ]
   },
   {
-    "id": "multifields",
+    "id": "customcards",
     "components": [
-      "multifield"
+      "singleitem"
     ]
   },
   {

@@ -1,30 +1,30 @@
 {
   "definitions": [
     {
-      "title": "multifields",
-      "id": "multifields",
+      "title": "Custom Cards",
+      "id": "customcards",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "multifields",
-              "filter": "multifields"
+              "name": "Custom Cards",
+              "filter": "customcards"
             }
           }
         }
       }
     },
     {
-      "title": "multifield",
-      "id": "multifield",
+      "title": "Single Item",
+      "id": "singleitem",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "multifield",
-              "model": "multifield"
+              "name": "Single Item",
+              "model": "Single Item"
             }
           }
         }
@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "multifield",
+      "id": "singleitem",
       "fields": [
         {
           "component": "reference",
@@ -54,9 +54,9 @@
   ],
   "filters": [
     {
-      "id": "multifield",
+      "id": "customcards",
       "components": [
-        "multifield"
+        "singleitem"
       ]
     }
   ]

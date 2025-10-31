@@ -137,15 +137,15 @@
           }
         },
         {
-          "title": "multifield",
-          "id": "multifield",
+          "title": "Single Item",
+          "id": "singleitem",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
-                  "name": "multifield",
-                  "model": "multifield"
+                  "name": "Single Item",
+                  "model": "singleitem"
                 }
               }
             }
@@ -191,6 +191,21 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Custom Cards",
+          "id": "customcards",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Custom Cards",
+                  "filter": "customcards"
                 }
               }
             }
