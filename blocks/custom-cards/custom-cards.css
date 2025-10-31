@@ -7,20 +7,20 @@
   grid-gap: 24px;
 }
 
-.custom-Cards > ul > li {
+.custom-cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
 }
 
-.custom-Cards .customCards-card-body {
+.custom-cards .customCards-card-body {
   margin: 16px;
 }
 
-.custom-Cards .customCards-card-image {
+.custom-cards .customCards-card-image {
   line-height: 0;
 }
 
-.custom-Cards > ul > li img {
+.custom-cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
