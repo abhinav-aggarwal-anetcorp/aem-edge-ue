@@ -10,8 +10,8 @@ export default function decorate(block) {
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
-      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'multifields-card-image';
-      else div.className = 'multifields-card-body';
+      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'customCards-card-image';
+      else div.className = 'customCards-card-body';
     });
     ul.append(li);
   });
